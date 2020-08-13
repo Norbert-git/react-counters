@@ -6,7 +6,10 @@ class App extends Component {
     return (
       <div className="App">
         <Header />
+        <h4>{this.props.data.counters}</h4>
       </div>
     );
   }
 }
+
+export default App;
